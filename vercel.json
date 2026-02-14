@@ -1,0 +1,8 @@
+{
+  "installCommand": "cd holi-herbal-wishes && npm install",
+  "buildCommand": "cd holi-herbal-wishes && npm run build",
+  "outputDirectory": "holi-herbal-wishes/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
