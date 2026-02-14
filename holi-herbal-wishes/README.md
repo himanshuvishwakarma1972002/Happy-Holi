@@ -28,8 +28,9 @@ To run this project locally:
    cd Happy-Holi
    ```
 
-2. **Install dependencies**:
+2. **Go to the app folder and install dependencies**:
    ```bash
+   cd holi-herbal-wishes
    npm install
    ```
 
@@ -37,6 +38,20 @@ To run this project locally:
    ```bash
    npm run dev
    ```
+
+## ☁️ Deploy on Vercel (fix 404 / DEPLOYMENT_NOT_FOUND)
+
+1. **Import** the repo at [vercel.com/new](https://vercel.com/new) (GitHub → Happy-Holi).
+2. **Root Directory**: Click “Edit” and set to **`holi-herbal-wishes`** (only this folder, no leading slash). Save.
+3. **Deploy** — wait until the deployment shows **Ready** (green).
+4. **Use the correct URL**:
+   - Open the project on Vercel → **Deployments**.
+   - Click the **latest Ready deployment**.
+   - Use the URL shown there (e.g. `happy-holi-xxx.vercel.app`) or your **Production URL** from **Settings → Domains**.
+5. If you see **404** or **DEPLOYMENT_NOT_FOUND**:
+   - Don’t use old or preview links; use the **production URL** from the dashboard.
+   - Go to **Deployments** → click **⋯** on latest → **Redeploy** → deploy again.
+   - Confirm **Root Directory** is still `holi-herbal-wishes`.
 
 ## 📸 Screenshots
 
